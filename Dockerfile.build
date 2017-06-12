@@ -1,0 +1,5 @@
+# https://pkgs.alpinelinux.org/packages
+# ビルドサーバ用のコンテナイメージを作成する
+# 各種資材のビルドにはMakefileを利用する
+
+FROM openjdk:8u131-jdk-alpine
