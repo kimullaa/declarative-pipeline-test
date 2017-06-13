@@ -6,9 +6,14 @@ pipeline {
     }
     
     stages {
+        stage('checkout') {
+            steps {
+                sh 'echo checkout'
+            }
+        }
         stage('build') {
             steps {
-                sh 'echo hello'
+                sh 'echo build'
             }
         }
     }
